@@ -1,4 +1,4 @@
-***Benefit App*** - Integrative Project 2024B 
+#Benefit App - Integrative Project 2024B 
 
 This repository contains the code and resources for the Benefit App Project, conducted by our team at Afeka College.
 Team members and roles: 
@@ -13,7 +13,7 @@ Alon Bitran- UIX Engineer /Team
 The project was developed in agile method, thus the project divided into 4 sprints. In the end of each sprint 
 we wrote a repotrt that containes the compleated tasks, difficulties, and unfinished tasks. 
 
-*Project Overvie* 
+##Project Overvie 
 The aim of the app is to give the user a platform for all the benefits he has from different cunsomer clubs or stores.
 The project consists of a server-side component called "SuperApp" and a client application known as "MiniApp".
 There are two clints in our program: A java clint, and an android client.
@@ -21,7 +21,7 @@ All the MiniApps designed for browsing and exploring points of interests.
 The miniapp communicate with the SuperApp server to retrieve data from the database. 
  
  
- *Installation*
+ #Installation
 -Installation Instructions-
 
 1. Visit the official DOCKER website: (https://www.docker.com/).
@@ -65,7 +65,7 @@ Run the STS executable to start the IDE.
 On the first run, select a workspace directory where your projects will be stored.
 
 
-*Usage*
+###Usage
 
 To use this project, clone the repository and navigate to the relevant directories for code, data, and documentation.
 
