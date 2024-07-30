@@ -1,75 +1,75 @@
-#Benefit App - Integrative Project 2024B 
+# Benefit App - Integrative Project 2024B
 
-This repository contains the code and resources for the Benefit App Project, conducted by our team at Afeka College.
-Team members and roles: 
-Gal Angel- Team leader /Team 
-Yahav Ler- SCRUM Master /Team 
-Yam Horin- QA Engineer/ Product Owner /Team 
-Diana Gurvits- System Architect/ Technical Writer /Team 
-Shaked Ben guy- DevOps /Team 
-Yarden Krispel- DBA /Team 
-Alon Bitran- UIX Engineer /Team 
+This repository contains the code and resources for the Benefit App Project, developed by our team at Afeka College.
+The project aims to provide users with a comprehensive platform to manage benefits from various consumer clubs and stores.
 
-The project was developed in agile method, thus the project divided into 4 sprints. In the end of each sprint 
-we wrote a repotrt that containes the compleated tasks, difficulties, and unfinished tasks. 
+## Team Members and Roles:
+- **Gal Angel** - Team Leader
+- **Yahav Ler** - SCRUM Master
+- **Yam Horin** - QA Engineer / Product Owner
+- **Diana Gurvits** - System Architect / Technical Writer
+- **Shaked Ben Guy** - DevOps
+- **Yarden Krispel** - DBA
+- **Alon Bitran** - UIX Engineer
 
-##Project Overvie 
-The aim of the app is to give the user a platform for all the benefits he has from different cunsomer clubs or stores.
-The project consists of a server-side component called "SuperApp" and a client application known as "MiniApp".
-There are two clints in our program: A java clint, and an android client.
-All the MiniApps designed for browsing and exploring points of interests.
-The miniapp communicate with the SuperApp server to retrieve data from the database. 
- 
- 
- #Installation
--Installation Instructions-
+## Project Overview
+The Benefit App consists of two main components: the server-side component called "SuperApp" and the client application known as "MiniApp". The MiniApp includes both a Java client and an Android client. The app is designed to allow users to browse and explore points of interest, manage their benefits, and retrieve data from the SuperApp server, which communicates with the database.
 
-1. Visit the official DOCKER website: (https://www.docker.com/).
+### Key Features:
+- **User Management**: Users can create accounts, log in, and manage their personal information.
+- **Benefit Tracking**: Users can track and manage benefits from different consumer clubs and stores.
+- **Points of Interest**: Users can browse and explore various points of interest provided by the MiniApp.
+- **Data Synchronization**: Real-time data synchronization between the MiniApp clients and the SuperApp server.
 
-2. Choose the appropriate DOCKER version for your operating system. If you have macOs or linux, put your mouse cursore ov the doemlouad botton, and two
-options for instaltion will showup. 
+## Project Structure
 
-3. Open the the link from the downloads and install run the instaltion on your computer. 
+### 1. Server-Side (SuperApp)
+The server-side component handles all the backend functionalities, including user authentication, benefit management, and communication with the database. It is built using Java and Spring Boot and deployed using Docker for containerization.
 
-4. Once the installation is complete, Docker should be ready to use.
+- **Controllers**: Handle HTTP requests and define API endpoints.
+- **Services**: Contain the business logic of the application.
+- **Repositories**: Interact with the database to perform CRUD operations.
+- **Models**: Define the data structures and entities.
 
-5. Befor running the server of the program, make shure that the Docker is running on your computer.
+### 2. Client-Side (MiniApp)
+The client-side component includes both a Java client and an Android client. These clients allow users to interact with the system, browse points of interest, and manage their benefits.
 
--Accessing Database-
+- **Java Client**: Built using JavaFX for the user interface.
+- **Android Client**: Built using Java and Android Studio for mobile interaction.
+- **APIs**: Communicate with the SuperApp server to fetch and update data.
+- **Views**: Define the user interface and user experience.
 
- You may access the databace through H2 console in the link: http://localhost:8085/h2-console .
- 
--Insalling Workspace- 
+### Technologies Used
+- **Java**: Core language for both server-side and client-side development.
+- **Spring Boot**: Framework for building the server-side application.
+- **Docker**: Containerization of the server-side application for easy deployment.
+- **JavaFX**: Framework for building the desktop client application.
+- **Android Studio**: IDE for building the Android client application.
+- **H2 Database**: In-memory database for development and testing.
+- **Git**: Version control system for managing the project codebase.
 
-1. Download Spring Tool Suite in the following link: (https://spring.io/tools/).
+## Installation
 
-2. Select the appropriate version for your operating system (Windows, macOS, or Linux) and download the installer.
+### Prerequisites
+- Java JDK
+- Docker
+- Spring Tool Suite (STS) or IntelliJ IDEA
+- Android Studio (for Android client)
 
-3. install Spring on your computer according your oprating system.
-For Windows:
+### Docker Installation
+1. Visit the official [Docker website](https://www.docker.com/).
+2. Choose the appropriate Docker version for your operating system.
+3. Download and run the installer.
+4. Follow the installation instructions and ensure Docker is running on your computer.
 
-Run the downloaded .exe installer.
-Follow the prompts to complete the installation.
-You can choose the installation directory or go with the default one.
-For macOS:
+### Accessing the Database
+Access the H2 console via the link: [http://localhost:8085/h2-console](http://localhost:8085/h2-console).
 
-Open the downloaded .dmg file.
-Drag the STS application to the Applications folder.
-For Linux:
+### Setting Up the Workspace
+1. Download Spring Tool Suite from [Spring Tool Suite](https://spring.io/tools/).
+2. Install the appropriate version for your operating system.
+3. Launch Spring Tool Suite and select a workspace directory.
 
-Extract the downloaded .tar.gz file to the desired directory.
-Open a terminal and navigate to the STS directory.
-Run the STS executable to start the IDE.
-
-4. Launch Spring Tool Suite: after installation, launch STS from the Start menu (Windows), Applications folder (macOS), or terminal (Linux).
-On the first run, select a workspace directory where your projects will be stored.
-
-
-###Usage
-
-To use this project, clone the repository and navigate to the relevant directories for code, data, and documentation.
-
-git clone
-
-
-
+### Cloning the Repository
+```sh
+git clone [repository_url]
