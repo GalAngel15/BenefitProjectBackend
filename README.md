@@ -43,7 +43,6 @@ The client-side component includes both a Java client and an Android client. The
 - **Java**: Core language for both server-side and client-side development.
 - **Spring Boot**: Framework for building the server-side application.
 - **Docker**: Containerization of the server-side application for easy deployment.
-- **JavaFX**: Framework for building the desktop client application.
 - **Android Studio**: IDE for building the Android client application.
 - **H2 Database**: In-memory database for development and testing.
 - **Git**: Version control system for managing the project codebase.
